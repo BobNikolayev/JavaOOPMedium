@@ -15,7 +15,7 @@ public class Cat implements Competitor{
 
     @Override
     public void run(int dist) {
-        if(dist <= maxJumpHeight){
+        if(dist <= maxRunDist){
             System.out.printf("%s run %d m \n", name, dist);
         }else{
             System.out.printf("%s cant run %d m \n", name, dist);
@@ -25,7 +25,7 @@ public class Cat implements Competitor{
 
     @Override
     public void jump(int height) {
-        if(height <= maxRunDist){
+        if(height <= maxJumpHeight){
             System.out.printf("%s jump %d m \n", name, height);
         }else{
             System.out.printf("%s cant jump %d m \n", name, height);

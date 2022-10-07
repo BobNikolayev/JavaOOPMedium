@@ -12,14 +12,16 @@ public class Main {
     public static void main(String[] args) {
 
         Competitor competitors[] = {
-                new Cat("barsik"),
-                new Robot("destroyer"),
+                new Cat("Barsik"),
+                new Robot("Destroyer"),
                 new Human("Rob")
         };
 
         Obstacles obstacles[] = {
-                new Wall(2),
-                new Cross(1000)
+                new Wall(1),
+                new Cross(100),
+                new Cross(2000),
+                new Wall(4)
         };
 
 
