@@ -11,13 +11,13 @@ import less1.marathon.obstacles.Wall;
 public class Main {
     public static void main(String[] args) {
 
-        Competitor competitors[] = {
+        Competitor[] competitors = {
                 new Cat("Barsik"),
                 new Robot("Destroyer"),
                 new Human("Rob")
         };
 
-        Obstacles obstacles[] = {
+        Obstacles[] obstacles = {
                 new Wall(1),
                 new Cross(100),
                 new Cross(2000),
@@ -39,8 +39,6 @@ public class Main {
         for (Competitor c :competitors) {
             c.info();
         }
-
-
 
 
     }
